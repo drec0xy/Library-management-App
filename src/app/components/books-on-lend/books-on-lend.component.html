@@ -1,0 +1,16 @@
+<div class="booksOnLend">
+    <table>
+        <th>User Name</th>
+        <th>Book Name</th>
+        <th>Date Out</th>
+        <th>Date In</th>
+        <th>Returned</th>
+    <tr *ngFor = "let lendedbook of BooksOnLend" class="oneBook">
+        <td>{{ lendedbook.user }}</td>
+        <td>{{ lendedbook.book }}</td>
+        <td>{{ lendedbook.dateOut }}</td>
+        <td>{{ lendedbook.dateIn }}</td>
+        <td><button class="btn" (click)="returned()">returned</button></td>
+    </tr>
+</table>
+</div>

@@ -1,0 +1,37 @@
+<form #usersForm = "ngForm">
+    <h2 mat-dialog-title>Lend A Book</h2>
+    <div class="section" mat-dialog-content>
+       
+        <label> Select a Book</label>
+        <select  name = "book" ngModel >
+            <option             matInput  
+            *ngFor = "let book of BookList"  value = "{{ book.title }}">  
+                
+                    {{ book.title }}
+            </option>
+        </select>
+        <label> Select a User</label>
+        <select name = "user" ngModel >
+            <option *ngFor = "let user of UsersList"  value = "{{ user.username }}"> 
+               {{ user.username }}
+            </option>
+        </select>
+        <label> Date Out</label>
+        <input type="date"
+        matInput  
+        
+        ngModel name = "dateIn">
+        <label> Date In</label>
+        <input 
+        matInput  
+        ngModel name = "dateOut"
+        type="date">
+
+    </div>
+    <div mat-dialog-actions class="container">
+        <button class="btn1" (click) = "LendOut(usersForm.value)" mat-button mat-dialog-close>Lend Out</button>
+
+        <button class="btn" mat-button mat-dialog-close>Cancel</button>
+
+      </div>
+</form>

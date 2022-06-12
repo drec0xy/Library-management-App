@@ -1,0 +1,14 @@
+<div class="Usercomponent">
+    <div class="usercard" *ngFor = "let user of Users">
+        <div class="profileandID">
+        <img class="profilepic"  src="{{ user.profilepic }}">
+        ID: {{ user.userID }} 
+        </div>
+
+        <div class="userInfo">
+        <p><a class=""> User Name: {{ user.username }} </a> </p>
+    </div>
+    </div>
+</div>
+
+

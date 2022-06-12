@@ -1,0 +1,61 @@
+<form #usersForm = "ngForm" >
+    <h2 mat-dialog-title>Add a new book</h2>
+    <div mat-dialogocontent class="section">
+     <div class="container">
+        <mat-form-field class="btn" hintLabel="Max 10 characters" appearance="fill">
+            <label>Book Title</label>
+            <input 
+            matInput  
+            maxlength="200" 
+            placeholder="Enter book name"
+            ngModel name = "title"
+            >
+            <mat-hint align="end"></mat-hint>
+          </mat-form-field>
+
+          <mat-form-field class="btn" hintLabel="Max 10 characters" appearance="fill">
+            <label>Book ID</label>
+            <input 
+            matInput
+            maxlength="200" 
+            type="text" 
+            placeholder="Enter book id"
+            ngModel name = "bookID"
+
+            >
+            <mat-hint align="end"></mat-hint>
+          </mat-form-field>
+        </div>
+        <div class="container">
+          <mat-form-field class="btn" hintLabel="Max 10 characters" appearance="fill">
+            <label>Book Author</label>
+            <input 
+            matInput 
+            maxlength="200"  
+            placeholder="Enter book author"
+            ngModel name = "author"
+                
+            >
+            <mat-hint align="end"></mat-hint>
+          </mat-form-field>
+          <mat-form-field class="btn" hintLabel="Max 10 characters" appearance="fill">
+            <label>Quantity</label>
+            <input 
+            matInput 
+            type="number" 
+            placeholder="Quantity"
+            ngModel name = "Quantity"
+            >
+
+            <mat-hint align="end"></mat-hint>
+          </mat-form-field>
+        </div>
+
+        <div mat-dialog-actions class="container">
+            <button class="btn1" (click) = "AddBook(usersForm.value)" mat-button mat-dialog-close>Save</button>
+            <button class="btn" mat-button mat-dialog-close>Cancel</button>
+
+          </div>
+    </div>
+    
+</form>

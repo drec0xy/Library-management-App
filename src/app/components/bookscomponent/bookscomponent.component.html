@@ -1,0 +1,12 @@
+<div  class="booksComponent">
+    <div (click)="openDialog()" class="bookCard" *ngFor = "let book of BookList">
+       <img class="book"  src="../assets/open-book.png">
+        <p>Title: {{ book.title }}</p>
+        
+        <div class="cardInfo">
+        <p><a  class="Available">  Available</a>Qty: {{  book.onLoan}} of {{ book.Quantity }}   </p> 
+    </div>
+    </div>
+</div>
+
+

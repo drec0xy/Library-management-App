@@ -1,0 +1,232 @@
+
+   {
+     "books":[
+        {
+            "bookID": "Bk001",
+            "bookcover": "./assets/books/book1.jpg",
+            "title": "Introduction To Computer And Network Security",
+            "author": "Richard R. Brooks",
+            "Quantity": 12
+        },
+        {
+            "bookID": "Bk002",
+            "bookcover": "./assets/books/book2.jpeg",
+            "title": "Textbook For Computer Science Class XXI",
+            "author": "Sema Bhatnagar",
+            "Quantity": 9
+        },
+        {
+            "bookID": "Bk003",
+            "bookcover": "./assets/books/book3.jpg",
+            "title": "Mathematics For Computer Science",
+            "author": "Gerard O'Regan",
+            "Quantity": 22
+        },
+        {
+            "bookID": "Bk004",
+            "bookcover": "./assets/books/book4.jpg",
+            "title": "Beginning Programming For Dummies",
+            "author": "Wallace Wang",
+            "Quantity": 9
+        },
+        {
+            "bookID": "Bk005",
+            "bookcover": "./assets/books/book5.jpg",
+            "title": "Algorithm for Dummies",
+            "author": "Gerard O'Regan",
+            "Quantity": 16
+        },
+        {
+            "bookID": "Bk006",
+            "bookcover": "./assets/books/book6.png",
+            "title": "Deleting Dystropia",
+            "author": "",
+            "Quantity": 6
+        },
+        {
+            "bookID": "Bk007",
+            "bookcover": "./assets/books/book7.jpg",
+            "title": "Introduction to Computer Science coding",
+            "author": "Kathleen M. Austin & Lorraine N. Bergkvist",
+            "Quantity": 11
+        },
+        {
+            "bookID": "Bk008",
+            "bookcover": "./assets/books/book8.jpg",
+            "title": "AP Computer Science Principles",
+            "author": "Jaqueline Coriecelli",
+            "Quantity": 12
+        },
+        {
+            "bookID": "Bk009",
+            "bookcover": "./assets/books/book9.png",
+            "title": "Pro Machine Learning Algorithms",
+            "author": "V. KisHare Ayyandeware",
+            "Quantity": 8
+        },
+        {
+            "bookID": "Bk010",
+            "bookcover": "./assets/books/book10.jpg",
+            "title": "Deep Learning In Computer Vision",
+            "author": "Mohamed Ali Ismail",
+            "Quantity": 6
+        }, {
+            "bookID": "Bk011",
+            "bookcover": "./assets/books/book1.jpg",
+            "title": "Introduction To Computer And Network Security",
+            "author": "Richard R. Brooks",
+            "Quantity": 12
+        },
+        {
+            "bookID": "Bk012",
+            "bookcover": "./assets/books/book2.jpeg",
+            "title": "Textbook For Computer Science Class XXI",
+            "author": "Sema Bhatnagar",
+            "Quantity": 9
+        },
+        {
+            "bookID": "Bk013",
+            "bookcover": "./assets/books/book3.jpg",
+            "title": "Mathematics For Computer Science",
+            "author": "Gerard O'Regan",
+            "Quantity": 22
+        },
+        {
+            "bookID": "Bk014",
+            "bookcover": "./assets/books/book4.jpg",
+            "title": "Beginning Programming For Dummies",
+            "author": "Wallace Wang",
+            "Quantity": 9
+        },
+        {
+            "bookID": "Bk015",
+            "bookcover": "./assets/books/book5.jpg",
+            "title": "Algorithm for Dummies",
+            "author": "Gerard O'Regan",
+            "Quantity": 16
+        },
+        {
+            "bookID": "Bk016",
+            "bookcover": "./assets/books/book6.png",
+            "title": "Deleting Dystropia",
+            "author": "",
+            "Quantity": 6
+        },
+        {
+            "bookID": "Bk017",
+            "bookcover": "./assets/books/book7.jpg",
+            "title": "Introduction to Computer Science coding",
+            "author": "Kathleen M. Austin & Lorraine N. Bergkvist",
+            "Quantity": 11
+        },
+        {
+            "bookID": "Bk018",
+            "bookcover": "./assets/books/book8.jpg",
+            "title": "AP Computer Science Principles",
+            "author": "Jaqueline Coriecelli",
+            "Quantity": 12
+        },
+        {
+            "bookID": "Bk019",
+            "bookcover": "./assets/books/book9.png",
+            "title": "Pro Machine Learning Algorithms",
+            "author": "V. KisHare Ayyandeware",
+            "Quantity": 8
+        },
+        {
+            "bookID": "Bk020",
+            "bookcover": "./assets/books/book10.jpg",
+            "title": "Deep Learning In Computer Vision",
+            "author": "Mohamed Ali Ismail",
+            "Quantity": 6
+        }
+        
+    ],
+    "users":[
+        {
+            "username": "John Doe",
+            "userID": "USR001",
+            "profilepic": "./assets/users/USR001.jpg"
+        },
+        {
+            "username": "estelle yomba",
+            "userID": "USR002",
+            "profilepic": "./assets/users/USR002.jpg"
+        },
+        {
+            "username": "Shai-Gilgous Alexender",
+            "userID": "USR003",
+            "profilepic": "./assets/users/USR003.png"
+        },
+        {
+            "username": "Nkwenti Azong-Wara",
+            "userID": "USR004",
+            "profilepic": "./assets/users/USR004.jpg"
+        },
+        {
+            "username": "Rebecca Enonchong",
+            "userID": "USR005",
+            "profilepic": "./assets/users/USR005.jpg"
+        },
+        {
+            "username": "Hellen Brown",
+            "userID": "USR006",
+            "profilepic": "./assets/users/USR006.jpg"
+        },
+        {
+            "username": "Patricia Monk",
+            "userID": "USR007",
+            "profilepic": "./assets/users/USR007.jpg"
+        },
+        {
+            "username": "Allan Turing",
+            "userID": "USR008",
+            "profilepic": "./assets/users/USR008.jpg"
+        },
+        {
+            "username": "Dennis Richie",
+            "userID": "USR009",
+            "profilepic": "./assets/users/USR009.jpg"
+        },
+        {
+            "username": "John vom Nuemann",
+            "userID": "USR010",
+            "profilepic": "./assets/users/USR010.jpg"
+        },
+        {
+            "username": "Guido Van Rousom",
+            "userID": "USR011",
+            "profilepic": "./assets/users/USR011.jpg"
+        },
+        {
+            "username": "Tim Berners-Lee",
+            "userID": "USR012",
+            "profilepic": "./assets/users/USR012.jpg"
+        },
+        {
+            "username": "Bill Gates",
+            "userID": "USR013",
+            "profilepic": "./assets/users/USR013.jpg"
+        },
+        {
+            "username": "Larry Page",
+            "userID": "USR014",
+            "profilepic": "./assets/users/USR014.jpg"
+        },
+        {
+            "username": "Ellon Musk",
+            "userID": "USR015",
+            "profilepic": "./assets/users/USR015.jpg"
+        }
+    ],
+    "LendedBooks":[
+        {
+            "book": "Deleting Dystropia",
+            "user": "Ellon Musk",
+            "dateOut": "2022-01-12", 
+            "dateIn": "2022-01-15"
+        }
+    ]
+
+}
+    

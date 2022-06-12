@@ -1,0 +1,70 @@
+.booksComponent{
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    font-weight: bold;
+    color: rgb(33, 33, 78);
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.Available{
+  color: green;
+  margin-right: 1.2rem;
+  font-weight: bold;
+}
+
+.bookCard{
+    padding: 1rem;
+    width: 180px;
+    height: 200px;
+    margin: 1rem;
+    background-color: rgb(248, 248, 248);
+    border-radius: .5rem;
+    border: 1px solid rgba(0, 0, 255, 0.45);
+    box-shadow: rgb(0, 0, 255);
+    text-align: center;
+    resize: none;
+    
+}
+.lastitem{
+    bottom:0;                         
+    left:0;
+}
+.book{
+    width: 100px;
+    height: 120px;
+}
+
+
+.cardInfo{
+  display: block;
+  padding: 0;
+}
+
+@media(max-width: 1366px){
+  .booksComponent{
+    grid-template-columns: repeat(4, 1fr);
+
+  }   
+   
+            
+}
+@media(max-width: 1250px){
+    .booksComponent{
+        grid-template-columns: repeat(3, 1fr);
+    
+    
+      }
+}
+
+@media(max-width: 500px){
+    .booksComponent{
+        grid-template-columns: repeat(1, 1fr);
+    
+      } 
+     
+      
+}

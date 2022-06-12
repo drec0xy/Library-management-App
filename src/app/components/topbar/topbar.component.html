@@ -1,0 +1,28 @@
+<div class="header">
+  <ul>
+
+    <li><a href="#default" class="logo"><img class="icon"  src="./assets/hamburger.png"> {{title}} </a></li>
+  </ul>
+  <div class="header-right">
+    <ul>
+      
+
+      <li>
+
+        <button mat-button [matMenuTriggerFor]="menu" class="btn">Add new</button>
+            <mat-menu #menu="matMenu">
+              <app-newbook></app-newbook>
+              <button mat-menu-item>Add new user</button>
+            </mat-menu>
+      </li>
+      <li>
+        <button (click) ="openDialog()" class="btn">Lend a book</button>
+      </li>
+    </ul>
+    
+
+  </div>
+</div>
+
+
+

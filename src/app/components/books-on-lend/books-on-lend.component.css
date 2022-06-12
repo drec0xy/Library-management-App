@@ -1,0 +1,42 @@
+.booksOnLend{
+    height: 100%;
+    
+}
+.btn{
+    font-size: .8rem;
+    font-weight: bold;
+    color: rgb(170, 26, 26);
+    border: none;
+    background-color: inherit;
+}
+.btn1{
+    font-size: .8rem;
+    font-weight: bold;
+    color: rgb(26, 170, 45);
+    border: none;
+    background-color: inherit;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section > *{
+    margin-top: 1rem;
+}
+table{
+    width: 100%;
+}
+
+tr:nth-child(odd){
+    background-color: rgba(91, 122, 179, 0.788);
+    border: none;
+}
+
+td,th{
+    padding: .5rem;
+    justify-content: space-evenly;
+    text-align: center;
+    border: none;
+}

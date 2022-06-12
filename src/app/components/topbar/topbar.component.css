@@ -1,0 +1,71 @@
+
+.icon{
+    max-width: 30px;
+    max-height: 30px;
+    display: inline-block;
+    align-self: center;
+    vertical-align: middle;
+    margin-right: 30px;
+	margin-left: 30px;
+
+}
+.btn{
+    font-size: 1.2rem;
+    font-weight: 1.2rem;
+    color: rgb(154, 164, 173);
+    border: none;
+    background-color: inherit;
+}
+h1{
+	margin: 0;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(154, 164, 173);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 1rem;
+
+
+}
+.header{
+	width: 80%;
+	position: sticky;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	padding: .3rem 5rem .3rem 1rem;
+
+}
+.header-right{
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+
+
+}
+
+ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	list-style: none;
+}
+
+li{
+	font-size: .8rem;
+	text-decoration: none;
+}
+@media(max-width: 1366px){
+	.header{
+		width: 70%
+	}
+}
+@media(max-width: 1000px){
+   .header{
+	   width: 80%;
+	   position: absolute;
+   }
+ 
+}
