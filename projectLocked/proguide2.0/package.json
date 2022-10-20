@@ -1,0 +1,47 @@
+{
+  "name": "proguide2.0",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=16.13.0",
+    "build": "next build",
+    "yarn": "please use npm",
+    "npm": ">=8.19.2"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@flaticon/flaticon-uicons": "^1.7.0",
+    "@iconscout/react-unicons": "^1.1.6",
+    "@mui/material": "^5.10.9",
+    "@popperjs/core": "^2.11.6",
+    "@unform/core": "^2.1.6",
+    "@unform/web": "^2.1.6",
+    "bootstrap": "^5.2.2",
+    "classnames": "^2.3.2",
+    "next": "12.3.1",
+    "next-pwa": "^5.6.0",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "^5.3.6",
+    "unicons-typescript-demo": "^0.0.1-0"
+  },
+  "devDependencies": {
+    "@types/node": "18.8.5",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1",
+    "prettier": "^2.7.1",
+    "typescript": "4.8.4"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  }
+}

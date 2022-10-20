@@ -1,0 +1,69 @@
+
+
+.color-promary{
+    color: #FF6B35;
+    --primaryColor: #FF6B35;
+
+}
+
+
+.inputfield{
+    height: 68px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #EDEDED;
+}
+.inputfield:focus{
+    border: 1px solid black;
+    box-shadow: none;
+}
+.button{
+    height: 68px;
+    background-color: #FF6B35;
+    font-size: 24px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+.button:hover{
+    background-color: #FF6B35;
+    background-color: var(--primaryColor);
+
+}
+
+.form-container{
+    border: 1px solid black;
+}
+
+.id_work_days {
+    border-color: transparent;
+    display: block;
+    resize: none;
+  }
+  
+  .SelectBox {
+    background-color : transparent;
+    display: inline;
+    border-radius: 4px;
+    text-transform: uppercase;
+    overflow: hidden;
+  }
+  .options{
+    width: 100px;
+    height: 140px;
+    text-align: center;
+    border-radius: 4px;
+    text-align: center;    
+    border: 1px solid black;
+    cursor: pointer;
+    display: inline;
+    background-color: #EDEDED;
+    font-size: 1rem;
+    color: black;
+
+  }
+  .options:active{
+    border: 2px solid #FF6B35;
+
+  }

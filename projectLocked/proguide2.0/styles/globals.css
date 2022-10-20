@@ -1,0 +1,52 @@
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.id_work_days {
+  width: 800px;
+  border-color: transparent;
+  display: block;
+  resize: none;
+  overflow: auto;
+}
+
+.id_work_days option {
+border: 2px solid #FFEB3B;
+  display: inline-block;
+  margin: 3px;
+  padding: 7px 10px;
+  border-radius: 4px;
+  width: 70px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+form>{
+  height: 68px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: rgb(243, 180, 180);
+  }
+}

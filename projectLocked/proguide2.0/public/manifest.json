@@ -1,0 +1,12 @@
+{
+    "theme_color":"",
+    "background_color":"",
+    "display":"standalone",
+    "scope":"/",
+    "start_url":"studentproguide.site/",
+    "name":"Proguide",
+    "short_name":"Pro",
+    "description":"Edtech"
+    
+
+}
